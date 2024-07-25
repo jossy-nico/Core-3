@@ -1,0 +1,135 @@
+.container {
+    width: 950px;
+    margin: 0 auto;
+    height: 600px;
+}
+.encabezado {
+    background-color: black;
+    width: 950px;
+    height: 70px;
+    padding: 10px;
+}
+.encabezado>h1 {
+    text-align: center;
+    padding: auto;
+}
+h1 {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    min-height: 200px;
+    padding: 16px;
+    column-gap: 16px;
+}
+.perfil {
+    border: 2px solid black;
+    width: 210px;
+    height: 235px;
+    margin-top: 85px;
+    margin-right: 10px;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color: rgb(228, 225, 225);
+}
+.perfil>img {
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+img {
+    height: 150px;
+}
+.name>h3 {
+    margin-left: 15px;
+}
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+main>section {
+
+    min-height: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+main>aside {
+    flex: 2;
+    min-height: 100%;
+    width: 280px;
+    flex-direction: column;
+    margin: 30px;
+}
+aside>h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: -20px;
+}
+.linn {
+    border: 2px solid;
+    width: 540px;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    border-radius: 8px;
+    background-color: rgb(215, 241, 241);
+    box-shadow: 5px 5px rgb(212, 209, 209);
+}
+.namelinn>h2 {
+    margin-left: 10px;
+}
+.namelinn>p {
+    margin-left: 10px;
+}
+
+.lina {
+    border: 2px solid;
+    width: 540px;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: rgb(215, 241, 241);
+    box-shadow: 5px 5px rgb(212, 209, 209);
+}
+.namelina>h2 {
+    margin-left: 10px;
+}
+.namelina>p {
+    margin-left: 10px;
+}
+.mateo {
+    border: 2px solid;
+    width: 540px;
+    height: 100px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: rgb(215, 241, 241);
+    box-shadow: 5px 5px rgb(212, 209, 209);
+}
+.namemateo>h2 {
+    margin-left: 10px;
+}
+.namemateo>p {
+    margin-left: 10px;
+}
+button {
+    background-color: orange;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgb(228, 221, 221);
+}
+.boton {
+    display: flex;
+    display: inline-block;
+    position: relative;
+    left: 80%;
+    bottom: 80%;
+    
+}
+
